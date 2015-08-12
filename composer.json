@@ -1,0 +1,23 @@
+{
+  "name": "zingorn/roi_php",
+  "description": "ROI Test Problem",
+  "authors": [
+    {
+      "name": "Kovalenko A. Alexander",
+      "email": "zingorn@gmail.com"
+    }
+  ],
+  "require" : {
+    "php": ">=5.3",
+    "nasa/rovers": "dev-master"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "3.7.*"
+  },
+  "repositories": [
+    {
+      "type": "git",
+      "url": "git@github.com:zingorn/rovers.git"
+    }
+  ]
+}
