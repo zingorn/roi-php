@@ -17,5 +17,11 @@ php composer.phar install
 * Run tests
 
 ```
-php vendor/bin/phpunit tests/MarsRoverTest.php
+vendor/bin/phpunit tests/MarsRoverTest.php
+```
+
+or
+
+```
+php vendor/phpunit/phpunit/phpunit tests/MarsRoverTest.php
 ```
