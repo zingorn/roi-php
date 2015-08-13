@@ -14,7 +14,7 @@ php -r "readfile('https://getcomposer.org/installer');" | php
 php composer.phar install
 ```
 
-* Run tests
+#Run tests
 
 ```
 vendor/bin/phpunit tests/MarsRoverTest.php
