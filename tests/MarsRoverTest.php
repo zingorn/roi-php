@@ -54,7 +54,6 @@ class MarsRoverTest extends PHPUnit_Framework_TestCase
         $context->setScope($scope);
 
         $testCount = 1;
-        $outputs = array();
         while (count($input)) {
             $position = array_shift($input);
             $line = array_shift($input);
@@ -70,6 +69,7 @@ class MarsRoverTest extends PHPUnit_Framework_TestCase
                 $this->fail('Invalid position string? Given: ' . implode(' ', $position));
             }
             $testOutput = array_shift($output);
+
             if ($testOutput === null) {
                 $this->fail(sprintf('Wrong output string for test %s',$testTitle));
             }
@@ -94,5 +94,6 @@ class MarsRoverTest extends PHPUnit_Framework_TestCase
         }
 
         $this->assertTrue(true);
+        echo "\n";
     }
 }
